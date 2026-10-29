@@ -2,37 +2,37 @@
 
 const projects = {
   byvit: {
-    title: 'BYVIT', type: 'ИНТЕРНЕТ-МАГАЗИН / КОММЕРЧЕСКИЙ ПРОЕКТ',
-    lead: 'Опыт в продажах — в основе логики интернет-магазина спортивного питания.',
-    description: ['Бизнес-логика проекта сформирована на основе моего опыта в продажах и понимания потребностей покупателей. Часть компонентов сначала проектировалась в Figma, затем переносилась в код.', 'Интерфейс адаптирован под разные размеры экранов. Все основные сценарии проверялись вручную. Проект развёрнут на VPS с Docker, собственным доменом и HTTPS; подготовлены резервное копирование и безопасное обновление с возможностью отката.'],
-    done: ['Адаптивный каталог, поиск и фильтры', 'Корзина, акции, промокоды и блог', 'Собственная административная панель', 'МойСклад: синхронизация цен и остатков', 'Передача заказов и комментариев с защитой от дублирования', 'Развёртывание на VPS, Docker и HTTPS'],
-    tech: ['Figma', 'HTML', 'CSS', 'JavaScript', 'Node.js', 'REST API', 'Docker', 'VPS', 'МойСклад'],
+    title: 'BYVIT', type: 'ONLINE STORE / COMMERCIAL PROJECT',
+    lead: 'Sales experience turned into business logic for a sports nutrition store.',
+    description: ['The store’s business logic draws on my sales experience and understanding of customer needs. Some components were first designed in Figma, then implemented in code.', 'The interface adapts to different screen sizes, and all key user journeys were tested manually. The project runs on a VPS with Docker, a custom domain and HTTPS, with backups and an update process that supports rollbacks.'],
+    done: ['Responsive catalog, search and filters', 'Shopping cart, promotions, discount codes and blog', 'Custom admin panel', 'MoySklad: price and stock synchronization', 'Order and comment transfer with duplicate protection', 'VPS deployment, Docker and HTTPS'],
+    tech: ['Figma', 'HTML', 'CSS', 'JavaScript', 'Node.js', 'REST API', 'Docker', 'VPS', 'MoySklad'],
     url: 'https://byvit.by/',
-    images: [['byvit-hero', 'Главная страница / Desktop', 'wide'], ['byvit-catalog', 'Каталог товаров / Desktop', 'wide'], ['byvit-mobile', 'Главная страница / Mobile', 'mobile'], ['byvit-catalog-mobile', 'Каталог / Mobile', 'mobile'], ['byvit-admin', 'Вход в собственную административную панель', 'wide']]
+    images: [['byvit-hero', 'Homepage / Desktop', 'wide'], ['byvit-catalog', 'Product catalog / Desktop', 'wide'], ['byvit-mobile', 'Homepage / Mobile', 'mobile'], ['byvit-catalog-mobile', 'Catalog / Mobile', 'mobile'], ['byvit-admin', 'Custom admin panel sign-in', 'wide']]
   },
   steel: {
-    title: 'Эра Стали', type: 'САЙТ ДЛЯ ПРОИЗВОДСТВА / КОММЕРЧЕСКИЙ ПРОЕКТ',
-    lead: '«Нужен сайт для производства» — от первого запроса до запуска.',
-    description: ['Проект реализован с нуля: от идеи и анализа рынка до готового сайта. Я изучил, какую информацию ищут клиенты в этой сфере, и на основе этого выстроил структуру и подачу.', 'Разработка и визуальные материалы создавались с помощью Codex и Google Flow. Подключены заявки через Telegram-бота, выполнены размещение на хостинге, базовая SEO-подготовка и индексация в Google и Яндексе.'],
-    done: ['Аналитика рынка и структура сайта', 'Концепция и визуальная подача производства', 'Разработка адаптивного сайта с нуля', 'Подключение Telegram-бота для заявок', 'Запуск на хостинге', 'Базовое SEO и индексация'],
-    tech: ['Codex AI', 'Google Flow', 'Адаптивная вёрстка', 'Telegram', 'SEO'], url: 'https://erastali.by/',
-    images: [['steel-hero', 'Первый экран / Desktop', 'wide'], ['steel-services', 'Производственные возможности', 'wide'], ['steel-pricing', 'Материалы и стоимость обработки', 'wide'], ['steel-result', 'Подача результата производства / Desktop', 'wide'], ['steel-mobile', 'Адаптивная версия / Mobile', 'mobile'], ['steel-contacts-mobile', 'Контакты и информация о производстве / Mobile', 'mobile']]
+    title: 'Era Stali', type: 'MANUFACTURING WEBSITE / COMMERCIAL PROJECT',
+    lead: '“We need a manufacturing website” — from the first request to launch.',
+    description: ['Built from scratch, from the initial idea and market research to a finished website. I researched what customers in this industry need to know and used those findings to shape the structure and content.', 'Development and visuals were created with Codex and Google Flow. I added inquiries through a Telegram bot, deployed the site, completed basic SEO setup and arranged indexing in Google and Yandex.'],
+    done: ['Market research and site structure', 'Concept and visual presentation of the manufacturing business', 'Responsive website built from scratch', 'Telegram bot for inquiries', 'Hosting deployment', 'Basic SEO and search indexing'],
+    tech: ['Codex AI', 'Google Flow', 'Responsive development', 'Telegram', 'SEO'], url: 'https://erastali.by/',
+    images: [['steel-hero', 'Hero section / Desktop', 'wide'], ['steel-services', 'Manufacturing capabilities', 'wide'], ['steel-pricing', 'Materials and processing costs', 'wide'], ['steel-result', 'Showcasing the finished product / Desktop', 'wide'], ['steel-mobile', 'Responsive version / Mobile', 'mobile'], ['steel-contacts-mobile', 'Contact and manufacturing information / Mobile', 'mobile']]
   },
   guitar: {
-    title: 'Guitar Vibe', type: 'САЙТ ГИТАРНОЙ СТУДИИ / КОММЕРЧЕСКИЙ ПРОЕКТ',
-    lead: 'Готовый дизайн в Figma — в работающий инструмент для записи на занятия.',
-    description: ['Моя роль — вёрстка по предоставленному макету Figma, реализация работы кнопок и подключение Telegram-бота для получения заявок.', 'Я запустил сайт на хостинге, выполнил базовую SEO-подготовку и индексацию в Google и Яндексе. Дизайн проекта был предоставлен в готовом виде.'],
-    done: ['Вёрстка по готовому макету Figma', 'Адаптация интерфейса для мобильных экранов', 'Подключение работы кнопок', 'Telegram-бот для заявок', 'Размещение на хостинге', 'Базовое SEO и индексация'],
-    tech: ['Figma / Код', 'Адаптивная вёрстка', 'Telegram', 'SEO'], url: 'https://guitarvibe.by/',
-    images: [['guitar-desktop', 'Главная страница / Desktop', 'wide'], ['guitar-mobile', 'Первый экран и форматы занятий / Mobile', 'mobile'], ['guitar-about-mobile', 'О студии и этапы обучения / Mobile', 'mobile']]
+    title: 'Guitar Vibe', type: 'GUITAR STUDIO WEBSITE / COMMERCIAL PROJECT',
+    lead: 'Turning a supplied Figma design into a working lesson booking website.',
+    description: ['My role was to implement the supplied Figma design, build the button interactions and connect a Telegram bot to receive booking requests.', 'I deployed the website, completed basic SEO setup and arranged indexing in Google and Yandex. The visual design was provided to me as a finished Figma file.'],
+    done: ['Implementation of a supplied Figma design', 'Mobile interface adaptation', 'Button interactions', 'Telegram bot for booking requests', 'Hosting deployment', 'Basic SEO and search indexing'],
+    tech: ['Figma to code', 'Responsive development', 'Telegram', 'SEO'], url: 'https://guitarvibe.by/',
+    images: [['guitar-desktop', 'Homepage / Desktop', 'wide'], ['guitar-mobile', 'Hero section and lesson formats / Mobile', 'mobile'], ['guitar-about-mobile', 'About the studio and learning process / Mobile', 'mobile']]
   },
   math: {
-    title: 'Математика', type: 'ОБРАЗОВАНИЕ / PET-ПРОЕКТ',
-    lead: 'Личный эксперимент: сайт о математике с атмосферой анимационного фильма.',
-    description: ['Идея — создать сайт в визуальном стиле студии Pixar: с выразительным 3D-персонажем, тёплым светом и дружелюбной подачей сложного предмета.', 'Проект реализован с помощью Codex и Google Flow. Это pet-проект для практики разработки и исследования возможностей AI в создании визуальных материалов.'],
-    done: ['Идея и визуальная концепция', 'Работа с AI-визуалами в Google Flow', 'Реализация сайта с помощью Codex', 'Адаптивная версия', 'Размещение на GitHub Pages'],
-    tech: ['Codex AI', 'Google Flow', 'Адаптивная вёрстка', 'GitHub Pages'], url: 'https://mihed1991.github.io/math/',
-    images: [['math-hero', 'Первый экран / Desktop', 'wide'], ['math-approach', 'Раздел о подходе к обучению', 'wide'], ['math-mobile', 'Частые вопросы / Mobile', 'mobile'], ['math-admin-mobile', 'Вход в панель управления / Mobile', 'mobile']]
+    title: 'Mathematics', type: 'EDUCATION / PERSONAL PROJECT',
+    lead: 'A personal experiment: a mathematics website with the atmosphere of an animated film.',
+    description: ['The idea was to create a Pixar-inspired website with an expressive 3D character, warm lighting and a friendly introduction to a challenging subject.', 'Built with Codex and Google Flow as a personal project to practice development and explore AI-generated visuals.'],
+    done: ['Idea and visual concept', 'AI visuals created with Google Flow', 'Website implementation with Codex', 'Responsive version', 'GitHub Pages deployment'],
+    tech: ['Codex AI', 'Google Flow', 'Responsive development', 'GitHub Pages'], url: 'https://mihed1991.github.io/math/',
+    images: [['math-hero', 'Hero section / Desktop', 'wide'], ['math-approach', 'Teaching approach section', 'wide'], ['math-mobile', 'Frequently asked questions / Mobile', 'mobile'], ['math-admin-mobile', 'Admin panel sign-in / Mobile', 'mobile']]
   }
 };
 
@@ -76,7 +76,7 @@ function externalLink(label, url, className) {
   link.href = url;
   link.target = '_blank';
   link.rel = 'noopener noreferrer';
-  link.setAttribute('aria-label', `${label} — откроется в новой вкладке`);
+  link.setAttribute('aria-label', `${label} — opens in a new tab`);
   return link;
 }
 function openProject(key, trigger) {
@@ -89,14 +89,14 @@ function openProject(key, trigger) {
   title.id = 'case-title';
   content.append(title, element('p', 'case-lead', project.lead));
   const actions = element('div', 'case-actions');
-  actions.append(externalLink('Открыть сайт', project.url, 'button button-light'));
+  actions.append(externalLink('Visit website', project.url, 'button button-light'));
   content.append(actions);
   const description = element('div', 'case-description');
   const story = element('div');
-  story.append(element('h3', '', 'О проекте и моей роли'));
+  story.append(element('h3', '', 'About the project & my role'));
   project.description.forEach(text => story.append(element('p', '', text)));
   const done = element('div');
-  done.append(element('h3', '', 'Что реализовано'));
+  done.append(element('h3', '', 'What I built'));
   const list = element('ul');
   project.done.forEach(text => list.append(element('li', '', text)));
   done.append(list);
@@ -117,7 +117,7 @@ function openProject(key, trigger) {
   });
   content.append(gallery);
   const end = element('div', 'case-end');
-  end.append(element('p', '', 'Обсудим вашу задачу?'), externalLink('Написать в Telegram', 'https://t.me/mihed_1991', 'button button-light'));
+  end.append(element('p', '', 'Have a project in mind?'), externalLink('Message me on Telegram', 'https://t.me/mihed_1991', 'button button-light'));
   content.append(end);
   dialog.showModal();
   dialog.scrollTop = 0;

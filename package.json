@@ -1,9 +1,9 @@
 {
-  "name": "mikhail-portfolio",
+  "name": "mikhail-portfolio-en",
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Локальное веб-портфолио Михаила",
+  "description": "Mikhail’s English web development portfolio",
   "scripts": {
     "dev": "node server.mjs",
     "start": "node server.mjs",

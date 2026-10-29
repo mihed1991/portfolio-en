@@ -1,34 +1,35 @@
-# Портфолио Михаила
+# Mikhail — Web Developer Portfolio (English)
 
-Адаптивный статический сайт на HTML, CSS и JavaScript. Все изображения локальные, внешних библиотек, шрифтов и сетевых API нет. Установка пакетов не нужна.
+English edition of Mikhail’s portfolio, built with HTML, CSS and JavaScript. No external libraries, fonts, APIs or package installation are required.
 
-## Локальный просмотр
+Live site: https://mihed1991.github.io/portfolio-en/
 
-Можно просто открыть `index.html` в браузере. Для просмотра по локальному адресу (Node.js 18+):
+Russian edition: https://mihed1991.github.io/portfolio/
+
+## Local preview
+
+Requires Node.js 18 or later.
 
 ```sh
-npm run dev
+npm run dev -- --port 4174
 ```
 
-Адрес: http://localhost:4173. Другой порт: `npm run dev -- --port 4174`.
+Open http://localhost:4174.
 
-## Проверка и сборка
+## Check and build
 
 ```sh
 npm run check
 npm run build
 ```
 
-Готовые файлы для статического хостинга находятся в `dist/`. Пути относительные, поэтому сайт подходит в том числе для GitHub Pages внутри репозитория. Для публикации выберите GitHub Actions и загрузку `dist/` либо разместите исходные публичные файлы в корне Pages. Публикация: https://mihed1991.github.io/portfolio/ . GitHub Pages использует ветку main и корневую папку репозитория.
+The static build is written to `dist/`. All asset paths are relative, so the site works under a GitHub Pages repository path. Pages publishes from the `main` branch, repository root.
 
-## Где менять содержимое
+## Editing
 
-- `index.html` — обложка, обо мне, карточки, навыки, услуги, контакты и SEO.
-- `app.js` — описания проектов, ссылки, галереи и взаимодействия.
-- `styles.css` — дизайн, адаптивность и reduced motion.
-- `assets/` — оптимизированный портрет, 18 скриншотов и favicon.
-Локальные материалы проверки и правила дизайна исключены из Git через `.gitignore`.
+- `index.html`: homepage, navigation, services, contact details and metadata.
+- `app.js`: case studies, gallery captions and interactions.
+- `styles.css`: design and responsive layout.
+- `assets/`: portrait, project screenshots and icons.
 
-Тексты основаны на предоставленной информации: три коммерческих проекта и один pet-проект. Цены не выдуманы: стоимость указана как индивидуальный расчёт. Telegram: https://t.me/mihed_1991.
-
-Адрес сайта и метаданные превью настроены для GitHub Pages.
+All portfolio copy, accessible labels and image captions are in English. Screenshots document the original Russian-language client projects. Contact: https://t.me/mihed_1991.
